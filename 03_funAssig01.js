@@ -78,5 +78,3 @@ bankDetails(bankName,accountNum,location,pinCode);
 
 
 
-
-

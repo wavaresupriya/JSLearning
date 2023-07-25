@@ -36,3 +36,11 @@ console.log('Result is ', result);
 var greet = "Good Morning";
 var lengthGreet= greet.length;
 console.log(greet,'Length of String is:', lengthGreet);
+
+function display(){
+    return "Learning JS";
+}
+var resultDisplay=display();
+console.log(resultDisplay);
+
+
