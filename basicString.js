@@ -14,7 +14,7 @@ var result2=hobby2.length;
 var result3=hobby3.length;
 var addHobby=result1+result2+result3;
 console.log(`Sum of total number of character is:${addHobby}`);
-console.log();
+
 
 
 

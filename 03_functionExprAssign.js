@@ -2,7 +2,6 @@
 var square=function(num1,num2){
 var result=num1*num2;
 console.log(`Square of : ${result}`);
-
 }
 square(5,5);
 square(6,6);
@@ -43,13 +42,13 @@ var charAt12 = str.charAt(12);
 console.log(`${str} - Char at 12th index is: ${charAt12}`);
 
 var charAtLastIndex = str.charAt(strLength-1);
-console.log(`Last Char is ${charAtLastIndex} of Index is ${strLength}`)
+console.log(`Last Char is ${charAtLastIndex} of Index is ${strLength}`);
 
 var charAt0 = str.charAt(0);
 console.log(`${str} - Char at 0th index is: ${charAt0}`);
 
 var charAtThirdLastIndex = str.charAt(strLength-3);
-console.log(`Third Last Char is ${charAtThirdLastIndex} of Index is ${strLength}`)
+console.log(`Third Last Char is ${charAtThirdLastIndex} of Index is ${strLength}`);
 
 var word=str.split(' ');
 var count=word.length;
