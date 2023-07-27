@@ -24,29 +24,5 @@ var wordCount = function(word){
 var result = wordCount("I am UI Developer");
 console.log(`Total word count is: ${result}`);
 
-console.log("----------practice");
-
-//function expresiion
-
-var display=function(){
-    console.log("I am UI developer");
-}
-display();
-console.log(typeof display);
-
-var add=function(num1,num2){
-    result=num1+num2;
-    console.log(`Addition is:${result}`);
-}
-add(10,20);
-
-var wordCount=function(word){
- var words=word.split(' ');
- var result=words.length;
- console.log(` ${word}`);
- return result;
-}
-var res=wordCount("I am UI Developer");
-console.log(`Total word is:${res}`);
 
 

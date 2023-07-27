@@ -9,7 +9,7 @@ square(25,25);
 square(100,100);
 square(67.89,67.89);
 square(59,59);
-console.log("--------------------------");
+console.log(`--------------------------`);
 console.log('Type of function is:' ,typeof square);
 console.log("--------------------------");
  var rectangle=function(length,width) 
@@ -20,7 +20,7 @@ console.log(`Area of rectangle: ${areaOfRectangular}`);
 var length=499;
 var width=917;
 rectangle(length,width);
-console.log('----------------------------');
+console.log(`----------------------------`);
 var swapValues=function(value1,value2){
 console.log(`Before Swap value1= ${value1}  value2=${value2}`);
 var temp=value1;
@@ -30,7 +30,7 @@ console.log(`After Swap value1= ${value1}  value2=${value2}`);
 }
 swapValues('Mahi','Raina');
 swapValues(55,77);
-console.log('----------------------------');
+console.log(`----------------------------`);
 var strOperation=function(str){
 var strLength=str.length;
 console.log(`Total Character in string: ${strLength}`);

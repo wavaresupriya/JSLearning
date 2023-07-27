@@ -1,7 +1,7 @@
 var interview= function(gradScore,hscScore,sscScore,candidateName)
 {
-(gradScore >=70||hscScore >=80||sscScore >=90)? console.log(`Congrates ${candidateName} You are eligible for TCS interview`) : console.log(`Unfortunately ${candidateName} You are not eligible for interview`);
-    
+var result=gradScore >=70||hscScore >=80||sscScore >=90? `Congrates ${candidateName} You are eligible for TCS interview`:`Unfortunately ${candidateName} You are not eligible for interview`;
+  console.log(result);  
 
 }
 interview(80,86,90,"supriya");
