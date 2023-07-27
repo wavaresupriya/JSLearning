@@ -58,3 +58,5 @@ console.log(`Result is ${result} and it's type is: ${typeof result}` );
 var isMarried = true;
 var result = String(isMarried);
 console.log(`Result is ${result} and it's type is: ${typeof result}` );
+
+
