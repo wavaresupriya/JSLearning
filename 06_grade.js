@@ -1,24 +1,25 @@
-function gradeCalculation(marks)
-{
+function gradeCalculation(marks) {
+    var marks = +marks;
+    
+    if (marks == 0 || marks < 0 || marks >100 || isNaN(marks)) {
+        console.log(`Please provide the valid marks: ${marks}`);
+    }
+    else {
+        if (marks >= 90 && marks <= 100) {
+            console.log(`Funtastic marks :${marks}, your grade is A+`);
+        }
+         else if (marks >= 75 && marks < 90) {
+            console.log(`Excellent marks ${marks}, your grade is A`);
+        }
 
-if(marks>=90 && marks<=100){
-    console.log(`Funtastic marks :${marks}, your grade is A+`);
-}
-if(marks>=75 && marks<90){
-    console.log(`Excellent marks ${marks}, your grade is A`);
-}
+        else if (marks >= 50 && marks < 75) {
+            console.log(`Good marks ${marks}, your grade is B`);
+        }
+        else if (marks >= 35 && marks < 50) {
+            console.log(`Marks is ${marks}, your grade is C, Need improvement`);
+        }
+    }
 
- if(marks>=50 && marks<75)
-{
-    console.log(`Good marks ${marks}, your grade is B`);
-}
-if(marks>=35 && marks<50){
-console.log(`Marks is ${marks}, your grade is C, Need improvement`);
-}
-var marksValue= +marks;
-if(marks=0 ||marks<0|| marks>100 || isNaN(marksValue)){
-console.log(`Please provide the valid marks`);
-}
 }
 gradeCalculation(98);
 gradeCalculation(80);
