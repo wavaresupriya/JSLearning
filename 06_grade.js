@@ -1,7 +1,7 @@
 function gradeCalculation(marks) {
-    var marks = +marks;
+    var marksValue = +marks;
     
-    if (marks <=0 || marks >100 || isNaN(marks)) {
+    if (marks ==0 || marks<=0 || marks >100 || isNaN(marksValue)) {
         console.log(`Please provide the valid marks: ${marks}`);
     }
     else {
