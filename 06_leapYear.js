@@ -1,6 +1,6 @@
 var leapYear=function(year)
 {
-    if(isNaN(year) || year==null || year==undefined ||year=="Twenty Twenty") 
+    if(isNaN(year)) 
         {
        console.log(`${year} ,is a Invalid Input`);
        }
