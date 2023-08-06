@@ -34,7 +34,7 @@ function display(){
         const PI = 3.1412;
         console.log(); 
     }
-    // console.log(PI);
+    //console.log(PI);
     // console.log(greet);
 }
 display();
