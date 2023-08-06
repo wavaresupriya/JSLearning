@@ -44,9 +44,9 @@ for (let index = 0; index < array.length; index++) {
 
 console.log(`Inserting element in the first and last position`);
 var array = [10, 20, 30, 50, 10, 80, 20];
-array.push(70);
+array.push(70);  //add element in last
 array.push(300, 500);
-array.unshift(60);
+array.unshift(60);   //add element in first
 array.unshift(21, 41, 69);
 console.log(array);
 
