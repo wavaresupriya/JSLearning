@@ -81,7 +81,7 @@ let search=arrayNumbers.includes(155);
 console.log(` is 155 available: ${search}`);
 
 console.log(`------------------------------Step11-----------------------------------`);
-//// is number 23 is Available in array
+// is number 23 is Available in array
 let searchNum=arrayNumbers.includes(23);
 console.log(`is 23 available: ${searchNum}`);
 
