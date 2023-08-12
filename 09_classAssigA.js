@@ -28,13 +28,13 @@ class College{
     constructor(collegeName,location,collegeGrade,chairman,principal){
         this.collegeName = collegeName;
         this.location = location;
-        this.collegeGrade = collegeGrade  ;
+        this.collegeGrade = collegeGrade;
         this.chairman = chairman;
         this.principal = principal; 
 
     }
     display( ){
-        console.log(`College Details is: collegeName:${this.collegeName},location:${this.location},collegeGrade:${this.collegeGrade},chairman:${this.chairman},principal:${this.chairman}`);
+        console.log(`College Details is: collegeName:${this.collegeName},location:${this.location},collegeGrade:${this.collegeGrade},chairman:${this.chairman},principal:${this.principal}`);
     
     }
 
@@ -48,7 +48,7 @@ collegeMRSV.display();
 let collegePD= new College("Pandurang Desai", "Kharad", "A+", "Bando Kadam","Batu Kambale");
 collegePD.display();
 
-let collegeDME= new College("Dattakala Management of Engineering","Daund","A+","Randas Zol", "Sachin Lawate");
+let collegeDME= new College("Dattakala Management of Engineering","Daund","A+","Ramdas Zol", "Sachin Lawate");
 collegeDME.display();
 
 console.log(`-------------------------Traverse Array---------------------------`);
