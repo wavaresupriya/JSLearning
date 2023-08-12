@@ -4,7 +4,6 @@ function primeNum(num){
     for (let index = 2; index <num; index++) {
         if( num % index ==0){
             prime =false;
-            console.log(`Not a prime number ${index}`);
             break;
         }
     }
