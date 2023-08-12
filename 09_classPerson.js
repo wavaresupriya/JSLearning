@@ -15,7 +15,7 @@ this.mobile = mobile;
    
    let studentStew= new Student("Stew page", 22, "JSPM","stew@gmail.com","9867 8989 98");
    
-   let studentElon= new Student("Elon Musk",33,"Standford","stew@gmail.com","9867 8989 98");
+   let studentElon= new Student("Elon Musk",33,"Standford","elon@gmail.com","9867 8989 98");
    
    let studentSatya= new Student("Satya Nadella",44,"ABC","stya@gmail.com","9867 8989 98");
    
@@ -27,11 +27,5 @@ this.mobile = mobile;
       student.show();
       
    }
-   for (const key in object) {
-      if (Object.hasOwnProperty.call(object, key)) {
-         const element = object[key];
-         
-      }
-   }
-
+  
 
