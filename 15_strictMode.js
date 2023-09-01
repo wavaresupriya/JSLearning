@@ -14,3 +14,6 @@ let student = {
 // delete student; // Not allowed
 
 // function show(num1, num1){
+//     console.log(num1,num1);
+// }
+// show(5,5);

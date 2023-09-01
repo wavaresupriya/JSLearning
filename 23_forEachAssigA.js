@@ -10,12 +10,14 @@ arrayNumbers.forEach((currentValue) => {
     }
 });
 console.log(`----------------------Step3----------------------------------`);
-const arrayNew = [10,-20,30,-40,-50];
-arrayNew.forEach((numbers) => {
+let newArray=[];
+arrayNumbers.forEach((numbers) => {
     if(numbers<0){
-        console.log(` New Array Negative numbers is: ${numbers}`);
-    }
+        newArray.push(numbers);
+    } 
 });
+console.log(`New Negative Numbers Array is:` ,newArray);
+
 console.log(`-----------------------Step4---------------------------------`);
 arrayNumbers.forEach((num) => {
     if(num%2==0){

@@ -20,5 +20,5 @@ return addition;
 let addResult=add(100,100,200,349,756);
 console.log(`Addition of 100,100,200,349,756 numbers is: ${addResult}`);
 
-let addOfString=add('I am', 'learning', 'ES6', 'features', 'in depth');
+let addOfString=add('I am ', 'learning ', 'ES6 ', 'features ', 'in depth');
 console.log(`Addition of String is: ${addOfString}`);

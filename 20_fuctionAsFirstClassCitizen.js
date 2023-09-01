@@ -4,9 +4,9 @@
 // 3. Function can return another function
 
 function show() {
-    console.log('inside show function');
+    console.log(`inside show function`);
     let innerFunction = function(){
-        console.log('Inside inner function');
+        console.log(`Inside inner function`);
     }
     return innerFunction;
 }
