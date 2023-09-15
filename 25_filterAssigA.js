@@ -17,10 +17,10 @@ const oddNumbersArray = arrayNumbers.filter( (currentValue) =>{
 } );
 console.log(oddNumbersArray );
 console.log(`---------------Numbers are Multiple of 5---------------`);
-const mulpliplynOf5 = arrayNumbers.filter( (currentValue) =>{
+const mulpliplyOf5 = arrayNumbers.filter( (currentValue) =>{
     return currentValue %5==0;
 } );
-console.log(mulpliplynOf5);
+console.log(mulpliplyOf5);
 console.log(`---------------Numbers between 20 and 50---------------`);
 
 const between = arrayNumbers.filter( (currentValue) =>{
