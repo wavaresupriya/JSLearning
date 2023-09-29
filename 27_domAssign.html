@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Exercise time!</title>
+        
+    </head>
+    <body>
+        <main>
+            <div id="overview">
+                <h1 id="mainHeading"> HTML & JavaScript are crucial technologies
+                </h1>
+                <p>The web would not work without them...</p>
+            </div>
+            <div id="advantages">
+                <ul>
+                    <li>Flexible</li>
+                    <li id="secondAdvantages">Available</li>
+                    <li>Magical</li>
+                </ul>
+            </div>
+        </main>
+        <script>
+            console.log(`-----------------------------mainHeading------------------------------`);
+            const mainHeading = document.getElementById("mainHeading");
+            console.log(mainHeading.innerHTML);
+            console.log(`-------------------------Second advantages----------------------------`);
+            const secondAdvantages = document.querySelector('#secondAdvantages');
+            console.log(secondAdvantages.innerHTML);
+            console.log(`-----------------------------adv Div----------------------------------`);
+            const advDiv = document.querySelectorAll('#advantages');
+            for (let index = 0; index < advDiv.length; index++) {
+                const element = advDiv[index].innerHTML;
+                console.log(element);
+                
+            }
+        </script> 
+
+    </body>
+</html>
